@@ -1,5 +1,4 @@
-from distutils.command.install_lib import PYTHON_SOURCE_EXTENSION
-import email
+
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 # Create your models here.
