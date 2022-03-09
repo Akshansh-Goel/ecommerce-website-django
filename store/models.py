@@ -43,7 +43,7 @@ class Variation(models.Model):
 
     object = VariationManager()
     
-    def _str_(self):
+    def __str__(self):
         return self.variation_value
 
 
